@@ -174,6 +174,7 @@ var nameList = [
   "Vortex",
   "Paradox",
 ];
+
 export function generateRandomName() {
   return nameList[Math.floor(Math.random() * nameList.length)];
 }
